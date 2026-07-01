@@ -53,7 +53,7 @@ body{
   line-height:1.65;
   -webkit-font-smoothing:antialiased;
 }
-img{max-width:100%;display:block;}
+img{max-width:100%;height:auto;display:block;}
 a{color:var(--red);text-decoration:none;}
 a:hover{text-decoration:underline;}
 h1,h2,h3{font-family:var(--font-display);color:var(--navy);line-height:1.08;margin:0;font-weight:700;letter-spacing:-.01em;}
