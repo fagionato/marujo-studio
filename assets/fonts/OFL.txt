@@ -1,0 +1,16 @@
+Fontes auto-hospedadas neste diretório
+=======================================
+
+Ambas são licenciadas sob a SIL Open Font License, Version 1.1 (OFL-1.1),
+que permite uso, incorporação e redistribuição — inclusive em sites — desde
+que os arquivos de fonte não sejam vendidos isoladamente e mantenham esta nota.
+
+- Baloo 2  — © The Baloo 2 Project Authors.
+  https://fonts.google.com/specimen/Baloo+2  ·  https://github.com/googlefonts/baloo
+- Nunito   — © The Nunito Project Authors (Vernon Adams, Cyreal, Jacques Le Bailly).
+  https://fonts.google.com/specimen/Nunito   ·  https://github.com/googlefonts/nunito
+
+Texto completo da licença: https://openfontlicense.org/
+
+Arquivos (subset latin, formato woff2): baloo2-600, baloo2-700,
+nunito-400, nunito-600, nunito-700.
