@@ -3,30 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Achei! — Joguinho de achar animais para crianças de 2 a 4 anos | Marujo Studio</title>
-<meta name="description" content="Achei! é um joguinho educativo para crianças de 2 a 4 anos aprenderem os animais brincando de achar. 100% offline, sem anúncios e sem coleta de dados. Em breve na App Store.">
+<title>marujo.studio — apps feitos com carinho para a primeira infância</title>
+<meta name="description" content="O marujo.studio cria apps para crianças, feitos com carinho, como se fossem para os nossos filhos. A tela é inevitável, mas a gente ajuda a fazer dela um tempo melhor. Conheça o Achei! e o Solê.">
 <link rel="canonical" href="https://marujo.studio/">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#173A5E">
 
 <!-- Open Graph / Twitter -->
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Achei! · Marujo Studio">
-<meta property="og:title" content="Achei! — aprender os animais brincando de achar">
-<meta property="og:description" content="Um joguinho gentil para crianças de 2 a 4 anos. Sem anúncios, sem internet, sem pressa. Em breve na App Store.">
+<meta property="og:site_name" content="marujo.studio">
+<meta property="og:title" content="marujo.studio — apps feitos com carinho para crianças">
+<meta property="og:description" content="A tela é inevitável, mas a gente ajuda a fazer dela um tempo melhor. Conheça o Achei! e o Solê.">
 <meta property="og:url" content="https://marujo.studio/">
 <meta property="og:image" content="https://marujo.studio/assets/img/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="pt_BR">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Achei! — aprender os animais brincando de achar">
-<meta name="twitter:description" content="Um joguinho gentil para crianças de 2 a 4 anos. 100% offline, sem anúncios, sem coleta de dados.">
+<meta name="twitter:title" content="marujo.studio — apps feitos com carinho para crianças">
+<meta name="twitter:description" content="A tela é inevitável, mas a gente ajuda a fazer dela um tempo melhor. Conheça o Achei! e o Solê.">
 <meta name="twitter:image" content="https://marujo.studio/assets/img/og-image.jpg">
 
-<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32">
-<link rel="apple-touch-icon" href="assets/img/favicon-180.png">
-<link rel="stylesheet" href="css/styles.css?v=3">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon-compass.svg">
+<link rel="icon" href="assets/img/favicon-compass-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/img/favicon-compass-180.png">
+<link rel="stylesheet" href="css/styles.css?v=4">
 </head>
 <body>
 <a class="skip-link" href="#main">Pular para o conteúdo</a>
@@ -34,14 +35,13 @@
 <!-- ===================== HEADER ===================== -->
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="brand" href="index.html" aria-label="Marujo Studio — página inicial">
+    <a class="brand" href="index.html" aria-label="marujo.studio — página inicial">
       <span class="mark" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="4.2" r="2.2"/><line x1="12" y1="6.4" x2="12" y2="21"/>
-          <line x1="8" y1="10" x2="16" y2="10"/><path d="M4.5 14.5a7.5 7.5 0 0 0 15 0"/>
+          <circle cx="12" cy="12" r="9.3"/><polygon points="16.6,7.4 13.5,13.5 10.5,10.5" fill="#fff" stroke="none"/><polygon points="7.4,16.6 13.5,13.5 10.5,10.5" fill="none" stroke="#fff" stroke-width="1.7"/>
         </svg>
       </span>
-      <span>Marujo Studio<small>joguinhos que cuidam</small></span>
+      <span>marujo.studio<small>apps que cuidam</small></span>
     </a>
 
     <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="site-nav">
@@ -49,220 +49,128 @@
     </button>
 
     <nav class="nav" id="site-nav" aria-label="Navegação principal">
-      <a class="navlink" href="index.html">Início</a>
-      <a class="navlink" href="index.html#o-jogo">O jogo</a>
+      <a class="navlink" href="index.html" aria-current="page">Início</a>
+      <a class="navlink" href="achei.html">Achei!</a>
+      <a class="navlink" href="sole.html">Solê</a>
       <a class="navlink" href="suporte.html">Suporte</a>
-      <a class="navlink" href="privacidade.html">Privacidade</a>
-      <span class="pill">Em breve</span>
     </nav>
   </div>
 </header>
 
 <main id="main">
 
-  <!-- ===================== HERO ===================== -->
-  <section class="hero">
-    <div class="wrap hero-grid">
-      <div class="hero-copy">
-        <span class="eyebrow">Em breve na App Store</span>
-        <h1><img class="hero-logo" src="assets/img/logo_achei.png" alt="Achei!" width="900" height="450"></h1>
-        <p class="hero-sub">Um joguinho para os pequenos aprenderem os animais brincando de achar.</p>
-        <p class="hero-lead">Feito para crianças de 2 a 4 anos. Sem anúncios, sem internet, sem pressa — só o seu filho, os bichinhos e a alegria de descobrir.</p>
-        <div class="hero-cta">
-          <!-- ===== PLACEHOLDER DE LANÇAMENTO =====================================
-               No lançamento, trocar TODO este bloco .appstore pelo selo oficial
-               "Baixar na App Store" (guidelines da Apple), envolto num <a href="URL-do-app">.
-               Esta é a única mudança planejada pós-lançamento (SITE_SPEC §4.1).
-          ==================================================================== -->
-          <span class="appstore" role="img" aria-label="Em breve na App Store">
-            <img src="assets/img/favicon-180.png" alt="">
-            <span>
-              <span class="as-top">Em breve na</span>
-              <span class="as-main">App Store</span>
-            </span>
-            <span class="as-badge">SOON</span>
-          </span>
-          <span class="hero-note">Grátis · iPhone e iPad</span>
-        </div>
-      </div>
-      <div class="hero-art">
-        <img class="elias" src="assets/img/mascot_wave.png" alt="Elias, o mascote marujo do Achei!, acenando" width="600" height="600">
-      </div>
-    </div>
-    <div class="wave" style="background:var(--cream)"><svg viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path fill="#FFFFFF" d="M0,52 C220,112 420,112 720,66 C1020,20 1240,22 1440,60 L1440,120 L0,120 Z"/></svg></div>
-  </section>
-
-  <!-- ===================== COMO FUNCIONA ===================== -->
-  <section class="section section--white" id="o-jogo">
+  <!-- ===================== HERO DO ESTÚDIO ===================== -->
+  <section class="studio-hero">
     <div class="wrap">
-      <div class="section-head center">
-        <span class="eyebrow">Como funciona</span>
-        <h2>Achar, aprender, comemorar</h2>
-        <p>O marujo Elias pede um bichinho. A criança toca. E a mágica acontece.</p>
-      </div>
-      <div class="grid-3">
-        <article class="card">
-          <div class="icon icon-sea" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="#3E9BD6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-8.5 8.5 9.8 9.8 0 0 1-3.9-.8L3 21l1.8-4.6A8.38 8.38 0 0 1 4 12 8.5 8.5 0 0 1 12.5 3.5 8.38 8.38 0 0 1 21 11.5z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01"/></svg>
-          </div>
-          <span class="step-num">Passo 1</span>
-          <h3>Elias pede</h3>
-          <p>“Cadê a vaquinha?” O mascote convida, com voz e carinho.</p>
+      <p class="studio-kicker">Estúdio de apps para a primeira infância</p>
+      <h1 class="studio-message">
+        <span class="msg-strong">feitos com carinho para os nossos filhos</span>
+        <span class="msg-soft">A tela é inevitável, mas a gente ajuda a fazer dela um tempo melhor.</span>
+      </h1>
+
+      <div class="grid-apps">
+
+        <!-- Card Achei! -->
+        <article class="app-card">
+          <span class="app-thumb"><img src="assets/img/icon-192.png" alt="Ícone do app Achei!"></span>
+          <h3>Achei!</h3>
+          <span class="app-status">Em breve na App Store</span>
+          <p>Brincadeira de achar para aprender os nomes das coisas em português e em inglês.</p>
+          <a class="app-link" href="achei.html">
+            Conhecer o Achei!
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+          </a>
         </article>
-        <article class="card">
-          <div class="icon icon-honey" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="#E0A619" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V12"/><path d="M11 12V4.5a1.5 1.5 0 0 1 3 0V12"/><path d="M14 12.5V6.5a1.5 1.5 0 0 1 3 0V15a6 6 0 0 1-6 6h-1.5a5 5 0 0 1-4.2-2.3L4 15.5a1.6 1.6 0 0 1 2.7-1.7L8 15.5"/></svg>
-          </div>
-          <span class="step-num">Passo 2</span>
-          <h3>A criança acha</h3>
-          <p>Um toque no animal certo na cena. Errou? Nada de susto: é só tentar de novo.</p>
+
+        <!-- Card Solê -->
+        <article class="app-card">
+          <span class="app-thumb"><img src="assets/img/icon_sole.png" alt="Ícone do app Solê"></span>
+          <h3>Solê</h3>
+          <span class="app-status">Em breve na App Store</span>
+          <p>Uma estante onde a criança escolhe o livro e ouve a história narrada com calma, do jeitinho que você leria.</p>
+          <a class="app-link" href="sole.html">
+            Conhecer o Solê
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+          </a>
         </article>
-        <article class="card">
-          <div class="icon icon-red" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="#E4572E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18z"/></svg>
-          </div>
-          <span class="step-num">Passo 3</span>
-          <h3>Aprende os dois idiomas</h3>
-          <p>A cada acerto: “Vaquinha!… Cow!” — o nome em português e a primeira palavrinha em inglês.</p>
-        </article>
-      </div>
-      <div class="balloon-note">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#E4572E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 14c3.3 0 6-3 6-6.5S15.3 1 12 1 6 4 6 7.5 8.7 14 12 14z"/><path d="M12 14v3"/><path d="M10.5 20.5c.5-1 2.5-1 3 0"/></svg>
-        <span>E a cada cinco acertos, uma chuva de balões para comemorar junto.</span>
+
       </div>
     </div>
-    <div class="wave" style="background:#FFFFFF"><svg viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path fill="#173A5E" d="M0,60 C200,20 440,20 720,64 C1000,108 1240,108 1440,56 L1440,120 L0,120 Z"/></svg></div>
+    <div class="wave" style="background:var(--white)"><svg viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path fill="#173A5E" d="M0,60 C200,20 440,20 720,64 C1000,108 1240,108 1440,56 L1440,120 L0,120 Z"/></svg></div>
   </section>
 
-  <!-- ===================== CONFIANÇA ===================== -->
+  <!-- ===================== O QUE NOS GUIA ===================== -->
   <section class="section section--navy">
     <div class="wrap">
       <div class="section-head center">
-        <span class="eyebrow" style="color:#F6C453;background:rgba(246,196,83,.14)">Por que os pais confiam</span>
-        <h2>Pensado para tranquilizar você</h2>
+        <span class="eyebrow" style="color:#F6C453;background:rgba(246,196,83,.14)">O que nos guia</span>
+        <h2>Tela vai existir. Que seja uma tela do bem.</h2>
+        <p style="color:#bcd3e8">Não dá para fingir que a tela não faz parte da infância de hoje. Então a gente faz a nossa parte: cada minuto no nosso app é calmo, sem armadilhas e com um propósito.</p>
       </div>
       <div class="grid-trust">
         <article class="trust">
-          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#F6C453" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3l18 18"/><path d="M5 12.5a10 10 0 0 1 4-2.4M2 8.8a15 15 0 0 1 5-2.8"/><path d="M8.5 16a5 5 0 0 1 5-1.2M22 8.8a15 15 0 0 0-6.5-3.2"/><path d="M12 20h.01"/></svg></div>
-          <h3>100% offline</h3>
-          <p>Funciona sem internet, em qualquer lugar. Baixou, brincou.</p>
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#F6C453" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/></svg></div>
+          <h3>Como se fosse para o nosso filho</h3>
+          <p>É esse o único padrão de qualidade que aceitamos. Se não serve para os nossos, não serve para os seus.</p>
         </article>
         <article class="trust">
           <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#F6C453" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.5l7.5 3v5.5c0 4.6-3.2 8.4-7.5 9.5-4.3-1.1-7.5-4.9-7.5-9.5V5.5z"/><path d="M9 12l2 2 4-4"/></svg></div>
-          <h3>Sem coleta de dados</h3>
-          <p>Nada sai do aparelho. Nenhum dado da criança é registrado ou enviado.</p>
+          <h3>Privacidade em primeiro lugar</h3>
+          <p>Cada app tem a sua política de privacidade, clara e por escrito. Nada de rastreamento comercial das crianças.</p>
         </article>
         <article class="trust">
           <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#F6C453" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11v2a1 1 0 0 0 1 1h2l4 3.5V6.5L6 10H4a1 1 0 0 0-1 1z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M4 4l16 16"/></svg></div>
-          <h3>Sem anúncios</h3>
-          <p>Nenhuma propaganda, nenhum link para lugar nenhum. Só o jogo.</p>
+          <h3>Sem anúncios e sem armadilhas</h3>
+          <p>Nada de propaganda, botão escondido ou compra por impulso. O tempo de tela é da criança, não de quem quer vender algo.</p>
         </article>
         <article class="trust">
           <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#F6C453" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M8.5 14.5a4 4 0 0 0 7 0"/><path d="M9 9.5h.01M15 9.5h.01"/></svg></div>
-          <h3>Sem sustos</h3>
-          <p>Sem sons agressivos, sem punição, sem tempo esgotando. Só acolhimento.</p>
-        </article>
-        <article class="trust">
-          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#F6C453" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/><circle cx="12" cy="15.5" r="1.4"/></svg></div>
-          <h3>Área dos adultos protegida</h3>
-          <p>Ajustes e links ficam atrás de um portão parental. A criança não sai sozinha do jogo.</p>
+          <h3>No tempo da criança</h3>
+          <p>Sem pressa e sem pressão, nada de relógio correndo. A criança explora no ritmo dela, do jeito dela — porque a gente respeita quem ela é.</p>
         </article>
       </div>
     </div>
     <div class="wave" style="background:#173A5E"><svg viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path fill="#FDF6EC" d="M0,56 C220,108 440,108 720,62 C1000,16 1240,18 1440,58 L1440,120 L0,120 Z"/></svg></div>
   </section>
 
-  <!-- ===================== AS CENAS ===================== -->
-  <section class="section section--cream">
-    <div class="wrap">
-      <div class="section-head center">
-        <span class="eyebrow">As cenas</span>
-        <h2>Cinco mundinhos para explorar</h2>
-        <p>Cada cena traz seus bichinhos para achar — e novos nomes para aprender.</p>
-      </div>
-      <div class="grid-scenes">
-        <figure class="scene"><img src="assets/img/bg_farm.jpg" alt="Cena da Fazendinha do jogo Achei!" loading="lazy"><span>Fazendinha</span></figure>
-        <figure class="scene"><img src="assets/img/bg_forest.jpg" alt="Cena da Floresta do jogo Achei!" loading="lazy"><span>Floresta</span></figure>
-        <figure class="scene"><img src="assets/img/bg_pond.jpg" alt="Cena da Lagoa do jogo Achei!" loading="lazy"><span>Lagoa</span></figure>
-        <figure class="scene"><img src="assets/img/bg_beach.jpg" alt="Cena da Praia do jogo Achei!" loading="lazy"><span>Praia</span></figure>
-        <figure class="scene"><img src="assets/img/bg_garden.jpg" alt="Cena do Jardim do jogo Achei!" loading="lazy"><span>Jardim</span></figure>
-      </div>
-    </div>
-    <div class="wave" style="background:var(--cream)"><svg viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path fill="#FFFFFF" d="M0,60 C200,20 440,20 720,64 C1000,108 1240,108 1440,56 L1440,120 L0,120 Z"/></svg></div>
-  </section>
-
-  <!-- ===================== QUEM FAZ ===================== -->
-  <section class="section section--white">
-    <div class="wrap studio">
-      <div class="studio-art">
-        <img src="assets/img/mascot_celebrate.png" alt="Elias comemorando" width="600" height="600" loading="lazy">
-      </div>
-      <div class="studio-copy">
-        <span class="eyebrow">Quem faz</span>
-        <h2>Feito com cuidado pelo Marujo Studio</h2>
-        <p>Somos um estúdio pequeno que faz joguinhos para quem está começando a descobrir o mundo. Cada detalhe do Achei! foi pensado para ser gentil, seguro e divertido — do jeito que a gente gostaria para os nossos próprios filhos.</p>
-      </div>
-    </div>
-    <div class="wave" style="background:#FFFFFF"><svg viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path fill="#FDF6EC" d="M0,52 C220,112 420,112 720,66 C1020,20 1240,22 1440,60 L1440,120 L0,120 Z"/></svg></div>
-  </section>
-
-  <!-- ===================== CTA FINAL ===================== -->
-  <section class="section cta-final">
-    <div class="wrap">
-      <span class="eyebrow">Quase lá</span>
-      <h2>O Achei! está chegando</h2>
-      <p>Um joguinho gentil para o seu filho descobrir os animais — no seu tempo, do seu jeito.</p>
-      <!-- No lançamento: trocar por selo oficial "Baixar na App Store" (ver §4.1). -->
-      <span class="appstore" role="img" aria-label="Em breve na App Store">
-        <img src="assets/img/favicon-180.png" alt="">
-        <span>
-          <span class="as-top">Em breve na</span>
-          <span class="as-main">App Store</span>
-        </span>
-        <span class="as-badge">SOON</span>
-      </span>
-    </div>
-    <div class="wave" style="background:var(--cream-2)"><svg viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path fill="#0f2c48" d="M0,60 C200,20 440,20 720,64 C1000,108 1240,108 1440,56 L1440,120 L0,120 Z"/></svg></div>
-  </section>
 </main>
 
 <!-- ===================== FOOTER ===================== -->
 <footer class="site-footer footer">
   <div class="wrap footer-grid">
     <div class="footer-brand">
-      <a class="brand" href="index.html" aria-label="Marujo Studio — página inicial">
+      <a class="brand" href="index.html" aria-label="marujo.studio — página inicial">
         <span class="mark" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="4.2" r="2.2"/><line x1="12" y1="6.4" x2="12" y2="21"/>
-            <line x1="8" y1="10" x2="16" y2="10"/><path d="M4.5 14.5a7.5 7.5 0 0 0 15 0"/>
+            <circle cx="12" cy="12" r="9.3"/><polygon points="16.6,7.4 13.5,13.5 10.5,10.5" fill="#fff" stroke="none"/><polygon points="7.4,16.6 13.5,13.5 10.5,10.5" fill="none" stroke="#fff" stroke-width="1.7"/>
           </svg>
         </span>
-        <span>Marujo Studio</span>
+        <span>marujo.studio</span>
       </a>
-      <p>Joguinhos que cuidam de quem está começando.</p>
+      <p>Apps feitos com carinho para os nossos filhos.</p>
       <div class="trust-seal">
-        <span>100% offline</span><span>Sem anúncios</span><span>Sem coleta de dados</span>
+        <span>Feito para crianças</span><span>Sem anúncios</span><span>Privacidade em primeiro lugar</span>
       </div>
     </div>
     <div>
-      <h4>Navegar</h4>
+      <h4>Apps</h4>
       <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="suporte.html">Suporte</a></li>
-        <li><a href="privacidade.html">Privacidade</a></li>
+        <li><a href="achei.html">Achei!</a></li>
+        <li><a href="sole.html">Solê</a></li>
       </ul>
     </div>
     <div>
-      <h4>O jogo</h4>
+      <h4>Ajuda</h4>
       <ul>
-        <li><a href="index.html#o-jogo">Como funciona</a></li>
-        <li><a href="suporte.html">Perguntas frequentes</a></li>
+        <li><a href="suporte.html">Suporte</a></li>
+        <li><a href="privacidade.html">Privacidade do Achei!</a></li>
+        <li><a href="sole-privacidade.html">Privacidade do Solê</a></li>
         <li><a href="mailto:suporte@marujo.studio">suporte@marujo.studio</a></li>
       </ul>
     </div>
   </div>
   <div class="wrap footer-legal">
-    <span>© 2026 Marujo Studio. Achei! e Elias são marcas do Marujo Studio.</span>
+    <span>© 2026 marujo.studio. Achei!, Solê e Elias são marcas do marujo.studio.</span>
     <span>marujo.studio</span>
   </div>
 </footer>
