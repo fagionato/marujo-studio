@@ -230,7 +230,8 @@ p{margin:0 0 1rem;text-wrap:pretty;}
 }
 .studio-kicker{
   font-family:var(--font-display);font-weight:700;color:var(--sea);
-  font-size:.82rem;letter-spacing:.18em;text-transform:uppercase;margin:0 0 .85rem;
+  font-size:clamp(.92rem,.85rem + .3vw,1.05rem);letter-spacing:.13em;
+  text-transform:uppercase;margin:0 0 1rem;
 }
 .studio-message{margin:0 auto;max-width:680px;}
 .studio-message .msg-strong{
