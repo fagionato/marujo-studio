@@ -236,7 +236,7 @@ p{margin:0 0 1rem;text-wrap:pretty;}
 .studio-message .msg-strong{
   display:block;font-weight:700;color:var(--navy);text-wrap:balance;
   font-size:clamp(1.55rem,1.2rem + 1.7vw,2.35rem);line-height:1.15;letter-spacing:-.015em;
-  max-width:17ch;margin-inline:auto;
+  max-width:24ch;margin-inline:auto;
 }
 .studio-message .msg-soft{
   display:block;margin:.85rem auto 0;font-weight:600;color:var(--ink-soft);text-wrap:balance;
