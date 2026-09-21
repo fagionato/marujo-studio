@@ -367,6 +367,23 @@ p{margin:0 0 1rem;text-wrap:pretty;}
   padding:.35rem .8rem;border-radius:999px;
 }
 .faq-app-head .faq-app-sub{color:var(--ink-soft);font-size:1.05rem;margin:0;max-width:52ch;}
+.faq-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:auto auto;gap:clamp(1.6rem,3.5vw,3.2rem);align-items:start;}
+/* subgrid alinha o topo das duas listas mesmo com cabeçalhos de alturas diferentes */
+.faq-col{min-width:0;display:grid;grid-row:span 2;grid-template-rows:subgrid;row-gap:0;align-content:start;}
+.faq-col + .faq-col{position:relative;}
+.faq-col + .faq-col::before{
+  content:"";position:absolute;left:calc(-1 * clamp(.8rem,1.75vw,1.6rem));top:.5rem;bottom:.5rem;
+  width:1px;background:rgba(23,58,94,.12);
+}
+.faq-columns .faq{max-width:none;}
+.faq-columns .faq summary{font-size:1.02rem;padding:1rem 1.15rem;gap:.7rem;}
+.faq-columns .faq .answer{padding:0 1.15rem 1.15rem;font-size:.97rem;}
+.faq-columns .faq-app-head{margin-bottom:1.4rem;}
+@media (max-width:880px){
+  .faq-columns{grid-template-columns:1fr;gap:3.2rem;}
+  .faq-col + .faq-col::before{display:none;}
+  .faq-col + .faq-col{padding-top:2.4rem;border-top:1px solid rgba(23,58,94,.12);}
+}
 
 /* ---------- Legal / Privacidade ---------- */
 .legal{max-width:720px;margin-inline:auto;}
