@@ -23,7 +23,7 @@
 
 <link rel="icon" href="assets/img/icon_sole.png" sizes="any">
 <link rel="apple-touch-icon" href="assets/img/icon_sole.png">
-<link rel="stylesheet" href="css/styles.css?v=4">
+<link rel="stylesheet" href="css/styles.css?v=5">
 </head>
 <body>
 <a class="skip-link" href="#main">Pular para o conteúdo</a>
@@ -52,7 +52,7 @@
   <section class="page-hero">
     <div class="wrap">
       <h1>Política de Privacidade — Solê</h1>
-      <p>Última atualização: 21 de julho de 2026 · Status: Nenhum dado coletado</p>
+      <p>Última atualização: 21 de setembro de 2026 · Status: Nenhum dado coletado</p>
     </div>
   </section>
 
@@ -60,8 +60,11 @@
     <div class="wrap legal">
       <div class="status">
         <span class="ok">Nenhum Dado Coletado</span>
-        <span>Última atualização: 21 de julho de 2026</span>
-        <span>Categoria Kids (5 anos ou menos)</span>
+        <span>Última atualização: 21 de setembro de 2026</span>
+        <!-- FAIXA ETÁRIA: a faixa da Categoria Kids ("5 anos ou menos" ou "6-8") é decidida no
+             questionário de classificação etária do App Store Connect. Quando a decisão for tomada lá,
+             escrever a MESMA faixa aqui, ex.: <span>Categoria Kids (5 anos ou menos)</span> -->
+        <span>Categoria Kids</span>
       </div>
 
       <p class="intro">O aplicativo <strong>Solê</strong> — um app de livrinhos infantis narrados e animados — foi desenvolvido com o compromisso absoluto de proteger a privacidade e a segurança das crianças. Esta Política de Privacidade explica, de forma clara e transparente, que o aplicativo opera de maneira inteiramente local, sem coletar, armazenar ou transmitir qualquer tipo de dado pessoal ou identificador de dispositivo para servidores externos.</p>
@@ -71,8 +74,8 @@
       <h3>1.1. Zero coleta de dados pessoais</h3>
       <p>Nós <strong>não coletamos</strong>, não solicitamos, não registramos e não transmitimos quaisquer informações de identificação pessoal.</p>
       <ul>
-        <li>O aplicativo permite a criação de perfis locais (ex.: "Perfil 1") para guardar o progresso de leitura, os livros favoritos e a última página aberta de cada criança.</li>
-        <li>Os nomes desses perfis são inseridos voluntariamente pelos pais ou responsáveis e permanecem armazenados de forma isolada dentro do próprio dispositivo.</li>
+        <li>O aplicativo permite a criação de perfis locais para guardar o progresso de leitura, os livros favoritos e a última página aberta de cada criança. Cada perfil guarda apenas um nome (ex.: "Perfil 1"), uma faixa de idade e um bichinho escolhido pela criança.</li>
+        <li>Esses perfis são criados voluntariamente pelos pais ou responsáveis, dentro da área dos pais protegida por portão parental, e permanecem armazenados de forma isolada dentro do próprio dispositivo.</li>
       </ul>
 
       <h3>1.2. Ausência de rastreadores (SDKs de terceiros)</h3>
@@ -102,9 +105,18 @@
         <li>Sem acesso aos serviços de localização (GPS).</li>
         <li>Sem acesso aos contatos ou à biblioteca de fotos do aparelho.</li>
       </ul>
-      <p>O app funciona de forma <strong>100% offline</strong>, sem exigir conexão com a internet (Wi-Fi ou dados móveis) após o download na App Store.</p>
+      <p>A <strong>leitura funciona 100% offline</strong>: depois do download na App Store, os livros são lidos e ouvidos sem exigir conexão com a internet (Wi-Fi ou dados móveis).</p>
 
-      <h2>4. Conformidade Legal Internacional</h2>
+      <h2>4. Compras Dentro do Aplicativo</h2>
+      <p>O Solê oferece uma coleção paga de livros (<em>Vila dos Amigos</em>). Essa é a única compra do app, e ela é <strong>processada inteiramente pela App Store da Apple</strong>, por meio do sistema de pagamentos do próprio iPhone.</p>
+      <ul>
+        <li>A compra é o único momento em que o aparelho precisa de conexão com a internet — para falar com a App Store, nunca com servidores nossos.</li>
+        <li><strong>Não recebemos, não vemos e não armazenamos nenhum dado de pagamento</strong> (cartão, cobrança ou identificação do comprador). Esses dados ficam com a Apple, sob a política de privacidade dela.</li>
+        <li>O aplicativo apenas pergunta ao sistema da Apple se a coleção está liberada naquele aparelho; a resposta é um sim ou não guardado localmente.</li>
+        <li>Toda a área de compra fica protegida pelo portão parental descrito na seção 6.</li>
+      </ul>
+
+      <h2>5. Conformidade Legal Internacional</h2>
       <p>A arquitetura técnica local-only (apenas local) do aplicativo assegura total conformidade com as principais legislações de proteção à privacidade infantil:</p>
       <ul>
         <li><strong>COPPA (Children's Online Privacy Protection Act — EUA):</strong> como não há coleta de identificadores persistentes nem de dados de crianças na internet, o aplicativo cumpre integralmente os requisitos de proteção online.</li>
@@ -112,11 +124,12 @@
         <li><strong>GDPR-K (Regulamento Geral de Proteção de Dados — União Europeia):</strong> garante a máxima proteção aos direitos das crianças, pela ausência total de perfis comportamentais ou rastreamento comercial.</li>
       </ul>
 
-      <h2>5. Áreas Restritas e Controle Parental (<em>Parental Gate</em>)</h2>
-      <p>Em suas telas principais, o aplicativo não apresenta links de navegação para fora do ambiente das histórias. Caso um adulto queira acessar os ajustes ou qualquer recurso externo (como abrir o navegador para visitar o site de suporte), o acesso é protegido por um <strong>portão parental</strong>.</p>
-      <p>Esse mecanismo consiste em um pequeno desafio — digitação por extenso ou uma conta simples — projetado especificamente para impedir a saída acidental de crianças pequenas, confirmando a presença de um adulto responsável.</p>
+      <h2>6. Áreas Restritas e Controle Parental (<em>Parental Gate</em>)</h2>
+<p>O aplicativo <strong>não abre o navegador nem leva a criança para fora do app</strong> em momento algum: não há links externos nas telas das histórias e também não há em nenhuma outra tela. Esta política, por exemplo, também pode ser lida dentro do próprio aplicativo.</p>
+      <p>O que fica protegido pelo <strong>portão parental</strong> é a <strong>área dos pais inteira</strong>: os perfis das crianças, a loja de livros, a compra da coleção e a leitura desta política.</p>
+      <p>O portão consiste em uma <strong>conta simples</strong>, respondida em um teclado numérico. Uma resposta errada não dá dica nem tenta de novo com a mesma conta: o app apresenta <strong>outra conta</strong>. O objetivo é confirmar a presença de um adulto responsável e impedir o acesso acidental por crianças pequenas.</p>
 
-      <h2>6. Contato e Suporte</h2>
+      <h2>7. Contato e Suporte</h2>
       <p>Em caso de dúvidas sobre esta política ou sobre o funcionamento do aplicativo, os pais ou responsáveis podem entrar em contato com a nossa equipe pelo e-mail <strong>suporte@marujo.studio</strong>.</p>
       <p style="margin-top:1.6rem;color:var(--ink-soft)"><em>Este documento segue as diretrizes da seção de aplicativos infantis (Kids Category) da Apple App Store.</em></p>
 
