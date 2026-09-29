@@ -73,6 +73,7 @@ p{margin:0 0 1rem;text-wrap:pretty;}
   font-family:var(--font-display);font-weight:700;font-size:.82rem;
   letter-spacing:.14em;text-transform:uppercase;color:var(--red);
   background:rgba(228,87,46,.10);padding:.4rem .85rem;border-radius:999px;
+  margin-bottom:1rem;
 }
 .section-head{max-width:640px;margin-bottom:2.4rem;}
 .section-head.center{margin-inline:auto;text-align:center;}
@@ -151,6 +152,10 @@ p{margin:0 0 1rem;text-wrap:pretty;}
 /* ---------- Waves ---------- */
 .wave{display:block;width:100%;height:clamp(48px,7vw,96px);line-height:0;}
 .wave svg{width:100%;height:100%;display:block;}
+
+/* Faixa branca entre a onda e o rodapé (fim da seção "O que nos guia", na home) */
+.section--tail-white{padding-bottom:0;}
+.section--tail-white::after{content:"";display:block;height:clamp(3.2rem,6vw,5.5rem);background:var(--white);}
 
 /* ---------- Steps (como funciona) ---------- */
 .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;}
@@ -240,7 +245,7 @@ p{margin:0 0 1rem;text-wrap:pretty;}
 }
 .studio-kicker{
   font-family:var(--font-display);font-weight:700;color:var(--sea);
-  font-size:clamp(.92rem,.85rem + .3vw,1.05rem);letter-spacing:.13em;
+  font-size:clamp(1.05rem,.95rem + .55vw,1.3rem);letter-spacing:.13em;
   text-transform:uppercase;margin:0 0 1rem;
 }
 .studio-message{margin:0 auto;max-width:680px;}
