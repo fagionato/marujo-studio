@@ -91,7 +91,7 @@ p{margin:0 0 1rem;text-wrap:pretty;}
 .btn-primary:hover{background:var(--red-700);text-decoration:none;transform:translateY(-2px);}
 .btn-ghost{background:rgba(255,255,255,.14);color:#fff;}
 
-/* App Store placeholder pill (trocar por selo oficial no lançamento) */
+/* App Store placeholder pill ("em breve", ainda usada pelo Solê) */
 .appstore{
   display:inline-flex;align-items:center;gap:.75rem;text-align:left;
   background:var(--navy);color:#fff;padding:.7rem 1.25rem .7rem .7rem;border-radius:18px;
@@ -220,6 +220,11 @@ p{margin:0 0 1rem;text-wrap:pretty;}
 .cta-final h2{margin-bottom:.6rem;}
 .cta-final p{color:var(--ink-soft);max-width:46ch;margin-inline:auto;margin-bottom:1.6rem;}
 .cta-final .appstore{margin-inline:auto;}
+/* Selo oficial "Baixar na App Store" (Achei!): sem alterar a arte; altura >= 40px (guidelines Apple) */
+.appstore-badge{display:inline-block;line-height:0;border-radius:10px;transition:transform .15s ease;}
+.appstore-badge img{height:54px;width:auto;}
+.appstore-badge:hover{transform:translateY(-2px);}
+.appstore-badge:focus-visible{outline:3px solid var(--honey);outline-offset:3px;}
 .cta-final .store-name-note{color:var(--ink-soft);font-size:.92rem;margin:1.1rem auto 0;max-width:46ch;}
 
 /* ---------- Hub do estúdio (home) ---------- */
