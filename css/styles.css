@@ -91,15 +91,12 @@ p{margin:0 0 1rem;text-wrap:pretty;}
 .btn-primary:hover{background:var(--red-700);text-decoration:none;transform:translateY(-2px);}
 .btn-ghost{background:rgba(255,255,255,.14);color:#fff;}
 
-/* Botão da App Store (pode ser trocado pelo selo oficial da Apple) */
+/* App Store placeholder pill ("em breve", ainda usada pelo Solê) */
 .appstore{
   display:inline-flex;align-items:center;gap:.75rem;text-align:left;
   background:var(--navy);color:#fff;padding:.7rem 1.25rem .7rem .7rem;border-radius:18px;
   box-shadow:var(--shadow);cursor:default;border:2px solid transparent;
 }
-a.appstore{cursor:pointer;transition:transform .15s ease,background .15s ease;}
-a.appstore:hover{text-decoration:none;transform:translateY(-2px);background:#1e4a75;}
-a.appstore:focus-visible{outline:3px solid var(--honey);outline-offset:3px;}
 .appstore img{width:46px;height:46px;border-radius:12px;box-shadow:0 4px 10px -4px rgba(0,0,0,.4);}
 .appstore .as-top{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:#a9c6e4;font-weight:700;}
 .appstore .as-main{font-family:var(--font-display);font-weight:700;font-size:1.18rem;line-height:1.05;}
@@ -223,6 +220,11 @@ a.appstore:focus-visible{outline:3px solid var(--honey);outline-offset:3px;}
 .cta-final h2{margin-bottom:.6rem;}
 .cta-final p{color:var(--ink-soft);max-width:46ch;margin-inline:auto;margin-bottom:1.6rem;}
 .cta-final .appstore{margin-inline:auto;}
+/* Selo oficial "Baixar na App Store" (Achei!): sem alterar a arte; altura >= 40px (guidelines Apple) */
+.appstore-badge{display:inline-block;line-height:0;border-radius:10px;transition:transform .15s ease;}
+.appstore-badge img{height:54px;width:auto;}
+.appstore-badge:hover{transform:translateY(-2px);}
+.appstore-badge:focus-visible{outline:3px solid var(--honey);outline-offset:3px;}
 .cta-final .store-name-note{color:var(--ink-soft);font-size:.92rem;margin:1.1rem auto 0;max-width:46ch;}
 
 /* ---------- Hub do estúdio (home) ---------- */
