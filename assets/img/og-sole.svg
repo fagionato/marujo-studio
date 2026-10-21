@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#E3F1FB"/>
+  <circle cx="1010" cy="310" r="274" fill="#FFFFFF" opacity=".62"/>
+  <circle cx="1114" cy="103" r="37" fill="#F6C453" opacity=".78"/>
+  <path d="M0 535 C180 480 310 572 472 532 C624 493 720 520 827 550 L827 630 L0 630Z" fill="#BFE1E7" opacity=".72"/>
+  <text x="83" y="101" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#173A5E">marujo.studio apresenta</text>
+  <text x="80" y="264" font-family="Arial, sans-serif" font-size="92" font-weight="700" fill="#173A5E">Solê</text>
+  <text x="85" y="340" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#173A5E">Livrinhos que leem</text>
+  <text x="85" y="393" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#173A5E">para o seu filho.</text>
+  <rect x="84" y="443" width="212" height="53" rx="27" fill="#E4572E"/>
+  <text x="115" y="478" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">EM BREVE</text>
+  <image xlink:href="icon_sole.png" x="708" y="44" width="460" height="460" preserveAspectRatio="xMidYMid meet"/>
+</svg>

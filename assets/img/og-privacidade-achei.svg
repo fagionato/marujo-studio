@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#FDF6EC"/>
+  <circle cx="941" cy="317" r="271" fill="#D9EEF5"/>
+  <image xlink:href="logo_achei.png" x="788" y="212" width="310" height="154" preserveAspectRatio="xMidYMid meet"/>
+  <text x="82" y="100" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#173A5E">marujo.studio · Achei!</text>
+  <text x="80" y="244" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#173A5E">Política de</text>
+  <text x="80" y="310" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#173A5E">Privacidade</text>
+  <text x="84" y="386" font-family="Arial, sans-serif" font-size="28" fill="#2B2B33">Sem coleta de dados pela Marujo Studio.</text>
+</svg>

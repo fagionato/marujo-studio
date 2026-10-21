@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#FDF6EC"/>
+  <path d="M650 0 H1200 V630 H760 C690 547 760 461 700 386 C638 309 699 219 648 145 C616 99 627 44 650 0Z" fill="#D9EEF5"/>
+  <path d="M663 420 C804 364 930 476 1200 400 V630 H678 C735 570 705 493 663 420Z" fill="#BFE1E7"/>
+  <g>
+    <circle cx="105" cy="108" r="54" fill="#FFFFFF" opacity=".76"/>
+    <image xlink:href="marujo-barquinho.png" x="63" y="66" width="84" height="84" preserveAspectRatio="xMidYMid meet"/>
+    <text x="177" y="119" font-family="Arial, sans-serif" font-size="31" font-weight="700" fill="#173A5E">marujo.studio</text>
+    <text x="76" y="252" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2" fill="#C8431F">ESTÚDIO DE APPS INFANTIS</text>
+    <text x="76" y="335" font-family="Arial, sans-serif" font-size="57" font-weight="700" fill="#173A5E">Apps feitos com carinho</text>
+    <text x="76" y="404" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#173A5E">para a primeira infância.</text>
+    <text x="80" y="493" font-family="Arial, sans-serif" font-size="27" fill="#2B2B33">Um tempo de tela mais calmo e com propósito.</text>
+    <image xlink:href="mascot_wave.png" x="764" y="91" width="402" height="402" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+</svg>

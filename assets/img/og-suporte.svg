@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#FDF6EC"/>
+  <circle cx="934" cy="320" r="280" fill="#D9EEF5"/>
+  <circle cx="1070" cy="138" r="50" fill="#F6C453" opacity=".72"/>
+  <image xlink:href="marujo-barquinho.png" x="83" y="68" width="82" height="82"/>
+  <text x="181" y="121" font-family="Arial, sans-serif" font-size="29" font-weight="700" fill="#173A5E">marujo.studio</text>
+  <text x="84" y="284" font-family="Arial, sans-serif" font-size="76" font-weight="700" fill="#173A5E">Suporte</text>
+  <text x="87" y="358" font-family="Arial, sans-serif" font-size="38" fill="#173A5E">Achei! e Solê</text>
+  <text x="88" y="423" font-family="Arial, sans-serif" font-size="27" fill="#2B2B33">Dúvidas? Gente de verdade ajuda você.</text>
+  <image xlink:href="elias-header.png" x="746" y="100" width="366" height="366"/>
+</svg>
