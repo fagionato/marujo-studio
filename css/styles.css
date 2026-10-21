@@ -331,6 +331,8 @@ p{margin:0 0 1rem;text-wrap:pretty;}
   font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;
   color:var(--navy);background:var(--honey);padding:.3rem .75rem;border-radius:999px;
 }
+.app-card > .appstore-badge{margin-block:.5rem;}
+.app-card > .appstore-badge + p{margin-top:.3rem;}
 .app-card > p{color:var(--ink-soft);flex:1;margin:.8rem 0 1.25rem;font-size:1.02rem;line-height:1.5;max-width:34ch;}
 .app-link{
   display:inline-flex;align-items:center;justify-content:center;gap:.5rem;align-self:stretch;
@@ -351,6 +353,8 @@ p{margin:0 0 1rem;text-wrap:pretty;}
 .footer ul{list-style:none;margin:0;padding:0;display:grid;gap:.55rem;}
 .footer ul a{color:#cdddec;font-weight:600;}
 .footer ul a:hover{color:#fff;}
+.footer-app-row{display:flex;align-items:center;gap:1.3rem;flex-wrap:wrap;}
+.footer-appstore-badge img{height:40px;}
 .trust-seal{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem;}
 .trust-seal span{font-size:.8rem;font-weight:700;color:#dfeaf5;background:rgba(255,255,255,.08);padding:.35rem .7rem;border-radius:999px;}
 .footer-legal{margin-top:2.2rem;padding-top:1.4rem;border-top:1px solid rgba(255,255,255,.12);font-size:.85rem;color:#8fabc8;display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;justify-content:space-between;}
