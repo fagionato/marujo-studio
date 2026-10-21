@@ -556,7 +556,6 @@ p{margin:0 0 1rem;text-wrap:pretty;}
 .legal a{color:#a53d22;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere;}
 .legal .status span{border:1px solid #e6dcc8;}
 .legal .status span.ok{border-color:#c7dbbc;}
-.site-footer{border-top:5px solid var(--sea);}
 .footer-brand p,.footer-brand .brand small,.footer-legal{color:#b9cde0;}
 :focus-visible{outline:3px solid #25688f;outline-offset:4px;}
 .section--navy :focus-visible,.site-footer :focus-visible,.page-hero :focus-visible{outline-color:var(--honey);}
