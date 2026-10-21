@@ -492,3 +492,79 @@ p{margin:0 0 1rem;text-wrap:pretty;}
   .footer-grid{grid-template-columns:1fr;}
   .footer-legal{justify-content:flex-start;}
 }
+
+/* Identidade compartilhada — livro infantil, mar calmo e cores da marca.
+   Manter estes tokens e tratamentos nas páginas futuras. */
+:root{
+  --coral-soft:#fff0e8;
+  --honey-soft:#fff5d9;
+  --leaf-soft:#eff5e9;
+  --social-gradient:linear-gradient(120deg,#8b367c 0%,#b93864 42%,#bb4627 76%,#995b19 100%);
+  --shadow:0 12px 28px -20px rgba(23,58,94,.32);
+  --shadow-lift:0 20px 36px -22px rgba(23,58,94,.38);
+}
+.site-header{background:rgba(253,246,236,.96);border-bottom:2px solid rgba(246,196,83,.45);}
+.header-inner{padding-block:.6rem;}
+.brand{gap:.65rem;font-size:1.22rem;line-height:1.2;}
+.brand .mark{width:56px;height:56px;border-radius:0;background:none;box-shadow:none;}
+.brand .mark img{width:56px;height:56px;object-fit:contain;}
+.brand small{margin-top:4px;}
+.nav a.navlink[aria-current="page"]{background:var(--honey-soft);box-shadow:inset 0 -3px var(--honey);}
+.nav a.nav-instagram,.nav a.nav-instagram:hover{background:var(--social-gradient);color:#fff;box-shadow:0 6px 16px -9px #8b367c;}
+.nav a.nav-instagram:hover{filter:brightness(1.08);}
+.studio-kicker{color:#25688f;letter-spacing:.09em;}
+.studio-message .msg-strong{font-size:clamp(1.9rem,1.2rem + 2.1vw,2.8rem);}
+.studio-hero:not(.studio-hero--sole)::before{opacity:.22;}
+.app-card{border:1px solid #e5dccf;border-top:5px solid var(--sea);background:linear-gradient(160deg,#fff 55%,#f0f8fc);}
+.app-card:nth-child(2){border-top-color:var(--honey);background:linear-gradient(160deg,#fff 55%,var(--honey-soft));}
+.app-card:nth-child(2) .app-status{background:var(--honey-soft);border:1px solid #e7ca7a;}
+.app-card:first-child .app-status{background:var(--leaf-soft);color:#365725;}
+.app-thumb{width:86px;height:86px;}
+.app-card:nth-child(2) .app-link{background:var(--navy);box-shadow:var(--shadow);}
+.app-card:nth-child(2) .app-link:hover{background:var(--navy-700);}
+.btn-primary,.app-link,.help-mail,.contact-card .mail{background:#bb4122;}
+.eyebrow{color:#a53d22;}
+.grid-3 .card{border-top:4px solid var(--honey);}
+.grid-3 .card:nth-child(2){border-top-color:var(--sea);}
+.grid-3 .card:nth-child(3){border-top-color:var(--green);}
+.trust{border-top:3px solid var(--honey);background:rgba(255,255,255,.08);}
+.trust:nth-child(2){border-top-color:var(--sea);}
+.trust:nth-child(3){border-top-color:#f08b6a;}
+.trust:nth-child(4){border-top-color:var(--green);}
+.instagram-invite-card{
+  border:1px solid #e9cbd3;border-top:5px solid #b93864;
+  background:linear-gradient(125deg,var(--honey-soft),#fff8f2 45%,#faedf4);
+  box-shadow:0 16px 36px -26px #8b367c;
+}
+.instagram-invite-card .eyebrow{color:#8b367c;background:#f5e3ee;}
+.instagram-invite-card .btn{background:var(--social-gradient);}
+.studio-hero--sole{background:linear-gradient(155deg,var(--honey-soft),var(--cream) 52%,#e9f2ed);}
+.studio-hero--sole .studio-subtitle{color:#2d7181;}
+.page-hero{background:linear-gradient(115deg,var(--navy-700),var(--navy) 55%,#245e79);border-bottom:5px solid var(--honey);}
+.page-hero h1{text-wrap:balance;}
+.faq details{border-color:#e1ddd3;box-shadow:0 6px 18px -14px rgba(23,58,94,.3);}
+.faq details[open]{border-color:#88b8ce;background:#f6fbfd;}
+.faq details[open] summary{color:#245e79;}
+.faq summary:hover{background:var(--honey-soft);}
+.legal h2{border-top-color:#dcecf2;}
+.legal h2::first-letter{color:#25688f;}
+.legal a{color:#a53d22;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere;}
+.legal .status span{border:1px solid #e6dcc8;}
+.legal .status span.ok{border-color:#c7dbbc;}
+.site-footer{border-top:5px solid var(--sea);}
+.footer-brand p,.footer-brand .brand small,.footer-legal{color:#b9cde0;}
+:focus-visible{outline:3px solid #25688f;outline-offset:4px;}
+.section--navy :focus-visible,.site-footer :focus-visible,.page-hero :focus-visible{outline-color:var(--honey);}
+@media (max-width:1000px) and (min-width:761px){
+  .header-inner{gap:.5rem;}
+  .nav a.navlink{padding-inline:.55rem;}
+  .nav a.nav-instagram{font-size:.8rem;padding-inline:.65rem;}
+  .brand{font-size:1.08rem;gap:.4rem;}
+  .brand .mark,.brand .mark img{width:48px;height:48px;}
+}
+@media (max-width:760px){
+  .brand{font-size:1.14rem;}
+  .brand .mark,.brand .mark img{width:48px;height:48px;}
+  .nav{padding-top:5.2rem;max-height:100dvh;overflow-y:auto;}
+  .nav a.nav-instagram,.nav a.nav-instagram:hover{background:var(--social-gradient);}
+}
