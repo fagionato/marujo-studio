@@ -10,6 +10,16 @@ A identidade canônica permanece em MarujoContent/01-marca/identidade-visual.md.
 
 O header usa `assets/img/elias-header.png`, retrato transparente do Elias em 224 × 224 px, exibido a 56 px no desktop e 48 px no celular ao lado do nome da marca. O barquinho continua no rodapé. O favicon tem seção própria abaixo.
 
+## Ícone do app Achei!
+
+`assets/img/icon-192.png` e `assets/img/icon-512.png` são o ícone do app como está na App Store — desde 27/10/2026, o Elias espiando atrás de uma folha. Ambos derivam da arte oficial de 1254 × 1254 que fica no projeto do app, fora deste repositório:
+
+```text
+~/Library/Mobile Documents/com~apple~CloudDocs/Dev/Achei/Assets/Imagens/app_store/Achei-icone-Elias-2026-10-27/Achei-icone-Elias-original-1254x1254.png
+```
+
+Para acompanhar uma troca de ícone no app, reduza essa arte sem distorção e sem alpha, com `magick ORIGINAL -filter Lanczos -resize 512x512 -alpha off -strip assets/img/icon-512.png` (idem para 192). O HTML arredonda o ícone por CSS; a imagem final é quadrada e opaca. As páginas usam `?v=N` no `src` para vencer o cache — suba o número a cada troca.
+
 ## Favicon
 
 O conjunto mora na raiz do repositório: são exatamente os caminhos que navegadores, iOS e buscadores pedem sozinhos, mesmo quando o HTML não declara nada. A declaração fica num único lugar, `_includes/favicons.html`, incluída com `{% include favicons.html %}` nas seis páginas estáticas e no template do gerador de referências (`ferramentas/gerar-referencias.py` em MarujoContent). Não repita o bloco de links dentro de uma página.
