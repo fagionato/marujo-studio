@@ -356,6 +356,13 @@ p{margin:0 0 1rem;text-wrap:pretty;}
 .footer ul a:hover{color:#fff;}
 .footer-app-row{display:flex;align-items:center;gap:1.3rem;flex-wrap:wrap;}
 .footer-appstore-badge img{height:40px;}
+/* Coluna de badges: as duas linhas compartilham as colunas da lista, então os
+   badges ficam alinhados pela borda direita em qualquer largura. O rótulo mais
+   largo define a coluna; o restante do espaço fica à direita. */
+@supports (grid-template-columns:subgrid){
+  .footer-apps{grid-template-columns:max-content max-content;column-gap:1.3rem;justify-content:start;}
+  .footer-app-row{display:grid;grid-template-columns:subgrid;grid-column:1/-1;align-items:center;justify-items:start;}
+}
 .trust-seal{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem;}
 .trust-seal span{font-size:.8rem;font-weight:700;color:#dfeaf5;background:rgba(255,255,255,.08);padding:.35rem .7rem;border-radius:999px;}
 .footer-legal{margin-top:2.2rem;padding-top:1.4rem;border-top:1px solid rgba(255,255,255,.12);font-size:.85rem;color:#8fabc8;display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;justify-content:space-between;}
