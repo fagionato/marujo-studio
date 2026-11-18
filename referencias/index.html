@@ -117,8 +117,8 @@
         <p class="ref-count" id="ref-count" aria-live="polite">37 referências em 28 publicações</p>
         <p class="ref-empty" id="ref-vazio" hidden>Nada encontrado com esse termo. Tente o nome da fonte, o assunto ou a data.</p>
         <div class="ref-switch" role="group" aria-label="Ver as referências por assunto ou por publicação">
-          <button class="ref-switch-btn" type="button" data-view="assunto" aria-pressed="true">Por assunto</button>
-          <button class="ref-switch-btn" type="button" data-view="publicacao" aria-pressed="false">Por publicação</button>
+          <button class="ref-switch-btn" type="button" data-view="assunto" aria-controls="ref-vista-assunto" aria-pressed="true">Por assunto</button>
+          <button class="ref-switch-btn" type="button" data-view="publicacao" aria-controls="ref-vista-publicacao" aria-pressed="false">Por publicação</button>
         </div>
       </div>
 
@@ -366,6 +366,7 @@
       </div>
 
       <div class="ref-view" id="ref-vista-publicacao" data-view="publicacao" hidden>
+        <h2 class="visually-hidden">As fontes, por publicação</h2>
         <div class="ref-posts">
           <article class="ref-post" id="post-Df29bRgFJp5">
             <p class="ref-post-date">17 de novembro de 2026</p>
